@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47DE42841E77009500F4255E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DE42831E77009500F4255E /* AppDelegate.swift */; };
+		47DE42861E77009500F4255E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DE42851E77009500F4255E /* ViewController.swift */; };
+		47DE42891E77009500F4255E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DE42871E77009500F4255E /* Main.storyboard */; };
+		47DE428B1E77009500F4255E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DE428A1E77009500F4255E /* Assets.xcassets */; };
+		47DE428E1E77009500F4255E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DE428C1E77009500F4255E /* LaunchScreen.storyboard */; };
+		47DE42961E77013A00F4255E /* ExampleTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DE42951E77013A00F4255E /* ExampleTarget.swift */; };
+		750410363D4677CDBA9A89D1 /* Pods_SelfSignedMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D66E258C8D583E33F6DF2 /* Pods_SelfSignedMoya.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47DE42801E77009500F4255E /* SelfSignedMoya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSignedMoya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DE42831E77009500F4255E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47DE42851E77009500F4255E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47DE42881E77009500F4255E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47DE428A1E77009500F4255E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47DE428D1E77009500F4255E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47DE428F1E77009500F4255E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47DE42951E77013A00F4255E /* ExampleTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTarget.swift; sourceTree = "<group>"; };
+		6A7D66E258C8D583E33F6DF2 /* Pods_SelfSignedMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfSignedMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28D32780E17AB56DA5B2C5F /* Pods-SelfSignedMoya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedMoya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedMoya/Pods-SelfSignedMoya.debug.xcconfig"; sourceTree = "<group>"; };
+		CFD3BD6C6317AC82A2D50EF2 /* Pods-SelfSignedMoya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedMoya.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedMoya/Pods-SelfSignedMoya.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47DE427D1E77009500F4255E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750410363D4677CDBA9A89D1 /* Pods_SelfSignedMoya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47DE42771E77009500F4255E = {
+			isa = PBXGroup;
+			children = (
+				47DE42821E77009500F4255E /* SelfSignedMoya */,
+				47DE42811E77009500F4255E /* Products */,
+				BBF59B8877E4F1CE9E5E543D /* Pods */,
+				5ECB69E07BA78632EAE3AE26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47DE42811E77009500F4255E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47DE42801E77009500F4255E /* SelfSignedMoya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47DE42821E77009500F4255E /* SelfSignedMoya */ = {
+			isa = PBXGroup;
+			children = (
+				47DE42831E77009500F4255E /* AppDelegate.swift */,
+				47DE42851E77009500F4255E /* ViewController.swift */,
+				47DE42871E77009500F4255E /* Main.storyboard */,
+				47DE428A1E77009500F4255E /* Assets.xcassets */,
+				47DE428C1E77009500F4255E /* LaunchScreen.storyboard */,
+				47DE428F1E77009500F4255E /* Info.plist */,
+				47DE42951E77013A00F4255E /* ExampleTarget.swift */,
+			);
+			path = SelfSignedMoya;
+			sourceTree = "<group>";
+		};
+		5ECB69E07BA78632EAE3AE26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A7D66E258C8D583E33F6DF2 /* Pods_SelfSignedMoya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBF59B8877E4F1CE9E5E543D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C28D32780E17AB56DA5B2C5F /* Pods-SelfSignedMoya.debug.xcconfig */,
+				CFD3BD6C6317AC82A2D50EF2 /* Pods-SelfSignedMoya.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47DE427F1E77009500F4255E /* SelfSignedMoya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DE42921E77009500F4255E /* Build configuration list for PBXNativeTarget "SelfSignedMoya" */;
+			buildPhases = (
+				5F004BAEC9306E61192B9A9F /* [CP] Check Pods Manifest.lock */,
+				47DE427C1E77009500F4255E /* Sources */,
+				47DE427D1E77009500F4255E /* Frameworks */,
+				47DE427E1E77009500F4255E /* Resources */,
+				011E064182DE92B07DEFFBB1 /* [CP] Embed Pods Frameworks */,
+				0AB97BAA9BC18E5FB431C72E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfSignedMoya;
+			productName = SelfSignedMoya;
+			productReference = 47DE42801E77009500F4255E /* SelfSignedMoya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47DE42781E77009500F4255E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Pedro Vereza";
+				TargetAttributes = {
+					47DE427F1E77009500F4255E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 47DE427B1E77009500F4255E /* Build configuration list for PBXProject "SelfSignedMoya" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47DE42771E77009500F4255E;
+			productRefGroup = 47DE42811E77009500F4255E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47DE427F1E77009500F4255E /* SelfSignedMoya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47DE427E1E77009500F4255E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DE428E1E77009500F4255E /* LaunchScreen.storyboard in Resources */,
+				47DE428B1E77009500F4255E /* Assets.xcassets in Resources */,
+				47DE42891E77009500F4255E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		011E064182DE92B07DEFFBB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelfSignedMoya/Pods-SelfSignedMoya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AB97BAA9BC18E5FB431C72E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelfSignedMoya/Pods-SelfSignedMoya-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F004BAEC9306E61192B9A9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47DE427C1E77009500F4255E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DE42861E77009500F4255E /* ViewController.swift in Sources */,
+				47DE42961E77013A00F4255E /* ExampleTarget.swift in Sources */,
+				47DE42841E77009500F4255E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47DE42871E77009500F4255E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47DE42881E77009500F4255E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47DE428C1E77009500F4255E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47DE428D1E77009500F4255E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47DE42901E77009500F4255E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47DE42911E77009500F4255E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47DE42931E77009500F4255E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28D32780E17AB56DA5B2C5F /* Pods-SelfSignedMoya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfSignedMoya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pedrovereza.SelfSignedMoya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		47DE42941E77009500F4255E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD3BD6C6317AC82A2D50EF2 /* Pods-SelfSignedMoya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfSignedMoya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pedrovereza.SelfSignedMoya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47DE427B1E77009500F4255E /* Build configuration list for PBXProject "SelfSignedMoya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DE42901E77009500F4255E /* Debug */,
+				47DE42911E77009500F4255E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47DE42921E77009500F4255E /* Build configuration list for PBXNativeTarget "SelfSignedMoya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DE42931E77009500F4255E /* Debug */,
+				47DE42941E77009500F4255E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47DE42781E77009500F4255E /* Project object */;
+}
