@@ -1,5 +1,5 @@
 target 'SelfSignedMoya' do
   use_frameworks!
 
-  pod 'Moya'
+  pod 'Moya/RxSwift'
 end
