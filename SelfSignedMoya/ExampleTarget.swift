@@ -14,23 +14,20 @@ enum ExampleTarget {
     case example
 }
 
-
 extension ExampleTarget : TargetType {
 
-    //Random website with Self signed SSL certificate
-    var baseURL: URL { return URL(string:"https://ride.com")! }
+    //Your url with self-signed certificate goes here
+    var baseURL: URL { return URL(string:"https://localhost")! }
 
     var path: String { return "/" }
 
     var method: Moya.Method { return .get }
 
-    var parameters: [String: Any]? { return [:] }
-
-    var parameterEncoding: ParameterEncoding { return URLEncoding.default }
-
     var sampleData: Data { return Data() }
 
-    var task: Task { return .request }
+    var task: Task { return .requestPlain }
 
     var validate: Bool { return true }
+
+    var headers: [String: String]? { return nil }
 }
