@@ -1,20 +1,20 @@
 PODS:
-  - Alamofire (4.6.0)
-  - Moya (10.0.2):
-    - Moya/Core (= 10.0.2)
-  - Moya/Core (10.0.2):
+  - Alamofire (4.7.3)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
     - Alamofire (~> 4.1)
     - Result (~> 3.0)
   - Result (3.2.4)
 
 DEPENDENCIES:
-  - Moya
+  - Moya (~> 11.0)
 
 SPEC CHECKSUMS:
-  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
-  Moya: 2b0531a9fef318e0bc484030c3db1e6f279ccb66
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
 
-PODFILE CHECKSUM: 01a88d5450fa97e6c3f966cfa0399094f19779ac
+PODFILE CHECKSUM: c990cb17ad51eaef2e7acb19f4f431f74b8d1202
 
 COCOAPODS: 1.4.0
